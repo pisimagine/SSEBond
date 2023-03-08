@@ -1,2 +1,2 @@
 # SSEBond
-get SSE Bond's information,calculate it‘s Maturity profit rate,and send email to alert.
+Getting SSE Bond's information,calculating it‘s Maturity profit rate,and sending email to alert.
