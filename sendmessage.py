@@ -5,10 +5,10 @@ import traceback
 class Mail:
 	
 	def __init__(self):
-		self.mailto_list=['781370514@qq.com']	#收件人(列表)
+		self.mailto_list=['xxx']	#收件人(列表)
 		self.mail_host="smtp.163.com"	#使用的邮箱的smtp服务器地址，这里是163的smtp地址
-		self.mail_user="pisimagine@163.com"	#用户名（网易邮箱登录的用户名）
-		self.mail_pass="yjs141421"	#密码（注意：此处密码为网易邮箱授权码，用于第三方客户端登陆,登陆密码为yjs090310）
+		self.mail_user="xxx"	#用户名（网易邮箱登录的用户名）
+		self.mail_pass="xxx"	#密码（注意：此处密码为网易邮箱授权码，用于第三方客户端登陆,登陆密码为yjs090310）
 
 	def Send_Mail(self,sub,content):
 		
@@ -35,5 +35,5 @@ class Mail:
 
 def test():
 	m = Mail()
-	m.Send_Mail("关于书","不喜欢也送给你！")
+	m.Send_Mail("xxx","test！")
 	
